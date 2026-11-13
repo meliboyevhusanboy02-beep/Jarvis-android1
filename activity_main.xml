@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#101827" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp" android:gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="JARVIS" android:textColor="#8DDCFF" android:textSize="34sp"
+            android:textStyle="bold" android:layout_marginTop="42dp"/>
+        <TextView android:id="@+id/statusText" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Shaxsiy AI yordamchingiz"
+            android:textColor="#FFFFFF" android:textSize="16sp" android:gravity="center"
+            android:layout_marginTop="12dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Hozircha tugmani bosib gapiring. Doimiy “JARVIS” uyg‘otish rejimi keyingi bosqichda qo‘shiladi."
+            android:textColor="#B8C5D6" android:textSize="14sp" android:gravity="center"
+            android:layout_marginTop="18dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Tilni tanlang / Выберите язык / Choose language"
+            android:textColor="#B8C5D6" android:gravity="center" android:layout_marginTop="22dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button android:id="@+id/uzButton" android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="wrap_content" android:text="O‘zbekcha"/>
+            <Button android:id="@+id/ruButton" android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="wrap_content" android:text="Русский"/>
+            <Button android:id="@+id/enButton" android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="wrap_content" android:text="English"/>
+        </LinearLayout>
+        <Button android:id="@+id/talkButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="🎙 Gapirish" android:layout_marginTop="12dp"/>
+        <Button android:id="@+id/dialerButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="📞 Asosiy telefon ilovasi qilish"/>
+        <Button android:id="@+id/testVoiceButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="🔊 Ovozini sinash"/>
+        <TextView android:id="@+id/answerText" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="16sp"
+            android:padding="16dp" android:layout_marginTop="20dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Qo‘ng‘iroqlarni boshqarish uchun JARVIS’ni standart telefon ilovasi sifatida tanlash talab qilinishi mumkin."
+            android:textColor="#F4C76A" android:textSize="13sp" android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>
